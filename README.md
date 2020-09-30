@@ -2,6 +2,7 @@
 > ESGI
 
 The rules are :
+
 En groupe de 3 à 5 personnes, vous devrez:-Créer au moins deux dépôt, un sur Github et un dépôt sur Gitlab (l’un des deux servira de second remote de backup). Les deux seront public pour permettre la notation. (1 points)-Démarrer un projet web (symfony par exemple) (1 point)-Préparer une image docker et expliquer dans un Readme comment lancer le projet dans un conteneur (2 point)-Pouvoir travailler en suivant la méthode Git flow-initialisation (1 point)-hotfix (1 point)-features (1 point)-merge commit sur master (0.5)-merge commit sur develop (0.5)-tag (1 point)-release branch (0.5)
 
 -Pouvoir montrer au moins un commit signé par personne (3 points)-Créer un ou plusieurs boards (0.5)-Écrire les issues décrivant le travail effectué dans le dépôt ainsi que les prochaines étapes, en assigner certaines ou toutes, les étiqueter judicieusement (4 points)-Choisir des milestones et utiliser les tags comme décrit dans git flow (1 point)-Écrire des commits propres, décrivant la fonctionnalité (2 points)-Protéger des branches contre la réécriture d’historique (force push) (1 point)
