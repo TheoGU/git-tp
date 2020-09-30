@@ -24,8 +24,8 @@ body{
 .App-pics {
   height: 40vmin;
   border-radius: 999px;
-  width: 200px;
-  height: 200px;
+  width: 180px;
+  height: 180px;
   transition: all 0.5s;
 }
 
