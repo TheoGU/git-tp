@@ -31,7 +31,7 @@ docker-compose up --build
 
 ## Concept
 
-The project is a `React app` based on `node:13.12.0-alpine` and `git flow` methodology
+The project is a `React app` based on `node:13.12.0-alpine` && `git flow` methodology
 
 ## Contributors
 
