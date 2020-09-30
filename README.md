@@ -9,10 +9,22 @@ En groupe de 3 à 5 personnes, vous devrez:-Créer au moins deux dépôt, un sur
 
 ## Installing / Getting started
 
-The project works with docker
+Get project
 
 ```shell
 git clone https://github.com/TheoGU/git-tp.git
+```
+
+Install all dependencies
+
+```shell
+cd git-tp/app
+npm install
+```
+
+The project works with docker
+
+```shell
 cd git-tp
 docker-compose up --build
 ```
