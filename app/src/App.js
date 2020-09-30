@@ -1,24 +1,28 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <section style={{display:'flex', width:'33vw', justifyContent:'space-around', flexWrap:'wrap'}}>
+          <div style={{height:'300px'}}>
+            <img src="https://avatars1.githubusercontent.com/u/17689143?s=460&u=8b06e68750cb1e06e9e2a3d0c1c43ac3310eb37d&v=4" className="App-pics" alt="pics-avatar" />
+            <p id="text-one">Thibeault</p>
+          </div>
+          <div style={{ height: '300px' }}>
+            <img src="https://avatars1.githubusercontent.com/u/31790786?s=460&u=a6187b84f87f6d0d1cdd2d008fe8c2f4f66fe14f&v=4" className="App-pics" alt="pics-avatar" />
+            <p id="text-two">Théo</p>
+          </div>
+          <div style={{ height: '300px' }}>
+            <img src="https://avatars2.githubusercontent.com/u/62797676?s=460&v=4" className="App-pics" alt="pics-avatar" />
+            <p id="text-three">Pierre</p>
+          </div>
+        </section>
       </header>
+      <footer style={{ background: "#101010", width: "100%", height: '10vh', color: "lightgray", display:"flex", justifyContent:'center', alignItems:'center'}}>
+        <p style={{ fontWeight: "bold", opacity: 0.5}}>Git TP - 2020</p>
+      </footer>
     </div>
   );
 }
