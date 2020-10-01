@@ -27,6 +27,72 @@ body{
   width: 180px;
   height: 180px;
   transition: all 0.5s;
+  box-shadow:0px 3px 20px -3px rgba(0, 0, 0);
+}
+
+.circle{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background: linear-gradient(122.57deg, #FF3366 0%, #FF2244 100%);  box-shadow:0px 3px 10px -3px rgba(0, 0, 0);
+  border-radius: 999px;
+  animation: alea 3.1s infinite ease-in-out;
+}
+.circle:nth-child(5){
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background: linear-gradient(122.57deg, #FFCC00 0%, #FFBF43 100%);  border-radius: 999px;
+  animation: alea 3.7s infinite ease-in-out;
+}
+.circle:nth-child(2){
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background: linear-gradient(122.57deg, #8855FF 0%, #9966FF 100%);  box-shadow:0px 3px 10px -3px rgba(0, 0, 0);
+  border-radius: 999px;
+  animation: alea 4s infinite ease-in-out;
+}
+.circle:nth-child(3){
+  position: absolute;
+  width: 40px;
+  height: 40px;
+background: linear-gradient(122.57deg, #0099FF 0%, #0088FF 100%);  box-shadow:0px 3px 10px -3px rgba(0, 0, 0);
+  border-radius: 999px;
+  animation: alea 3.2s infinite ease-in-out;
+}
+.circle:nth-child(4){
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background: linear-gradient(122.57deg, #00DD66 0%, #00CC88 0.01%, #00DD66 100%);
+  box-shadow:0px 3px 10px -3px rgba(0, 0, 0);
+  border-radius: 999px;
+  animation: alea 5s infinite ease-in-out;
+}
+
+@keyframes alea{
+  0%{
+    transform:translate(0px, 400px);
+		height: 40px;
+  }
+  30% {
+    transform:translate(700px, 0px);
+		height: 60px;
+	}
+  50%{
+    transform:translate(0px, -400px);
+		height: 20px;
+  }
+  75%{
+    transform:translate(-700px, 0px);
+		height: 60px;
+  }
+  100%{
+    transform:translate(0px, 400px);
+		height: 40px;
+  }
+
 }
 
 .App-pics:hover {
