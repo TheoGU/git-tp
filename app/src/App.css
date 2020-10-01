@@ -9,6 +9,9 @@ body{
 .App {
   text-align: center;
 }
+.content-pics{
+  height:320px;
+}
 
 .App-header {
   background-color: #191919;
