@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <section style={{display:'flex', width:'40vw', justifyContent:'space-around', flexWrap:'wrap'}}>
-          <div className="">
+          <div className="content-pics">
             <img src="https://avatars1.githubusercontent.com/u/17689143?s=460&u=8b06e68750cb1e06e9e2a3d0c1c43ac3310eb37d&v=4" className="App-pics" alt="pics-avatar" />
             <p id="text-one">Thibeault</p>
           </div>
