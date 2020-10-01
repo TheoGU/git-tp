@@ -19,9 +19,15 @@ function App() {
             <p id="text-three">Pierre</p>
           </div>
         </section>
+        <div className="circle"></div>
+        <div className="circle"></div>
+        <div className="circle"></div>
+        <div className="circle"></div>
+        <div className="circle"></div>
       </header>
       <footer style={{ background: "#101010", width: "100%", height: '10vh', color: "lightgray", display:"flex", justifyContent:'center', alignItems:'center'}}>
-        <p style={{ fontWeight: "bold", opacity: 0.5}}>Git TP - 2020</p>
+        <p style={{ fontWeight: "bold", opacity: 0.5 }}>Git TP - 2020 <span role="img" aria-label="heart">💜</span>
+</p>
       </footer>
     </div>
   );
